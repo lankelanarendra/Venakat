@@ -1,0 +1,16 @@
+name1=input("enter the first name:")
+name2=input("enter the second name:")
+combine_case=name1+name2
+lower_case=combine_case.lower()
+t=lower_case.count("t")
+r=lower_case.count("r")
+u=lower_case.count("u")
+e=lower_case.count("e")
+true_count=t+r+u+e
+l=lower_case.count("l")
+o=lower_case.count("o")
+v=lower_case.count("v")
+e=lower_case.count("e")
+love_count=l+o+v+e
+love_score=str(true_count)+str(love_count)
+print("total your  love score is:",love_score)
